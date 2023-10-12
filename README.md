@@ -1,38 +1,29 @@
-<p align="center"><img src="https://i.imgur.com/a9QWW0v.png"></p>
+<p align="center"><img src="assets/pic.png"></p>
 
 ## Usage
 
-### Create an App
+### Clone the repo
 
-```
-# with npx
-$ npx create-nextron-app my-app --example with-tailwindcss
-
-# with yarn
-$ yarn create nextron-app my-app --example with-tailwindcss
-
-# with pnpm
-$ pnpm dlx create-nextron-app my-app --example with-tailwindcss
+```bash
+git clone --branch js-tw https://github.com/bm777/nextron-speed-launch.git
 ```
 
 ### Install Dependencies
 
 ```
-$ cd my-app
+$ cd nextron-speed-launch
 
 # using yarn or npm
 $ yarn (or `npm install`)
 
-# using pnpm
-$ pnpm install --shamefully-hoist
 ```
 
 ### Use it
 
-```
+```bash
 # development mode
-$ yarn dev (or `npm run dev` or `pnpm run dev`)
+npm run dev
 
-# production build
-$ yarn build (or `npm run build` or `pnpm run build`)
+# production build (see the command in the package.json to run for your specific arch)
+npm run build
 ```
