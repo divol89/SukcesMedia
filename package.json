@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "nextron-linker",
+  "name": "nextron-js-tailwindcss",
   "description": "My application description",
   "version": "1.0.0",
   "author": "Bayang <bayangp0@gmail.com>",
@@ -8,6 +8,11 @@
   "scripts": {
     "dev": "nextron",
     "build": "nextron build",
+    "build:mac_x64": "nextron build --mac --x64",
+    "build:mac_arm64": "nextron build --mac --arm64",
+    "build:linux": "nextron build --linux",
+    "build:win32": "nextron build --win --ia32",
+    "build:win64": "nextron build --win --x64",
     "postinstall": "electron-builder install-app-deps"
   },
   "dependencies": {

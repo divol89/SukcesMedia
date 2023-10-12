@@ -1,5 +1,5 @@
 appId: com.example.nextron
-productName: Nextron linker
+productName: Nextron App JS and TailwindCSS
 copyright: Copyright © 2023 bayang
 directories:
   output: dist
