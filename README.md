@@ -5,17 +5,18 @@
 ### Clone the repo
 
 ```bash
-git clone --branch js-tw https://github.com/bm777/nextron-speed-launch.git
+# clone the main branch
+git clone https://github.com/bm777/nextron-speed-launch.git
+
 ```
 
 ### Install Dependencies
 
-```
-$ cd nextron-speed-launch
+```bash
+cd nextron-speed-launch
 
 # using yarn or npm
-$ yarn (or `npm install`)
-
+npm install
 ```
 
 ### Use it
